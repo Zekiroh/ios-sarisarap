@@ -2,7 +2,7 @@
 
 Simple iOS application developed as a school final project using SwiftUI.
 
-## Tech Stack
+## Built With
 - Swift
 - SwiftUI
 - Xcode
