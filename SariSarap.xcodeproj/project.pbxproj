@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A318BD822EDA04CC0092A041 /* SariSarapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BD812EDA04CC0092A041 /* SariSarapApp.swift */; };
+		A318BD842EDA04CC0092A041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BD832EDA04CC0092A041 /* ContentView.swift */; };
+		A318BD862EDA04CE0092A041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A318BD852EDA04CE0092A041 /* Assets.xcassets */; };
+		A318BD892EDA04CE0092A041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A318BD882EDA04CE0092A041 /* Preview Assets.xcassets */; };
+		A318BD9A2EDA073F0092A041 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BD992EDA073F0092A041 /* FoodItem.swift */; };
+		A318BD9C2EDA075C0092A041 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BD9B2EDA075C0092A041 /* CartManager.swift */; };
+		A318BD9E2EDA07A40092A041 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BD9D2EDA07A40092A041 /* HomeView.swift */; };
+		A318BDA02EDA07D20092A041 /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BD9F2EDA07D20092A041 /* FoodCardView.swift */; };
+		A318BDA22EDA07FD0092A041 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDA12EDA07FD0092A041 /* MenuView.swift */; };
+		A318BDA42EDA08730092A041 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDA32EDA08730092A041 /* FoodDetailView.swift */; };
+		A318BDA62EDA08BA0092A041 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDA52EDA08BA0092A041 /* CartView.swift */; };
+		A318BDA82EDA10EE0092A041 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDA72EDA10EE0092A041 /* Theme.swift */; };
+		A318BDCA2EDA38CC0092A041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A318BDC92EDA38CC0092A041 /* LaunchScreen.storyboard */; };
+		A318BDCF2EDA55D60092A041 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDCE2EDA55D60092A041 /* SplashView.swift */; };
+		A318BDD22EDA64B70092A041 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDD12EDA64B70092A041 /* ThemeManager.swift */; };
+		A318BDD42EDAB9890092A041 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDD32EDAB9880092A041 /* SettingsView.swift */; };
+		A318BDD82EDAC63A0092A041 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318BDD72EDAC63A0092A041 /* ReceiptView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A318BD7E2EDA04CC0092A041 /* SariSarap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SariSarap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A318BD812EDA04CC0092A041 /* SariSarapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SariSarapApp.swift; sourceTree = "<group>"; };
+		A318BD832EDA04CC0092A041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A318BD852EDA04CE0092A041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A318BD882EDA04CE0092A041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A318BD992EDA073F0092A041 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		A318BD9B2EDA075C0092A041 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		A318BD9D2EDA07A40092A041 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A318BD9F2EDA07D20092A041 /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
+		A318BDA12EDA07FD0092A041 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A318BDA32EDA08730092A041 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		A318BDA52EDA08BA0092A041 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		A318BDA72EDA10EE0092A041 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A318BDC92EDA38CC0092A041 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A318BDCD2EDA49410092A041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A318BDCE2EDA55D60092A041 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A318BDD12EDA64B70092A041 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A318BDD32EDAB9880092A041 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A318BDD72EDAC63A0092A041 /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A318BD7B2EDA04CC0092A041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A318BD752EDA04CC0092A041 = {
+			isa = PBXGroup;
+			children = (
+				A318BD802EDA04CC0092A041 /* SariSarap */,
+				A318BD7F2EDA04CC0092A041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A318BD7F2EDA04CC0092A041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A318BD7E2EDA04CC0092A041 /* SariSarap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A318BD802EDA04CC0092A041 /* SariSarap */ = {
+			isa = PBXGroup;
+			children = (
+				A318BDD02EDA63F70092A041 /* Theme */,
+				A318BDCD2EDA49410092A041 /* Info.plist */,
+				A318BD942EDA066E0092A041 /* Views */,
+				A318BD8F2EDA054E0092A041 /* Models */,
+				A318BD812EDA04CC0092A041 /* SariSarapApp.swift */,
+				A318BD832EDA04CC0092A041 /* ContentView.swift */,
+				A318BD852EDA04CE0092A041 /* Assets.xcassets */,
+				A318BD872EDA04CE0092A041 /* Preview Content */,
+				A318BDC92EDA38CC0092A041 /* LaunchScreen.storyboard */,
+				A318BDCE2EDA55D60092A041 /* SplashView.swift */,
+			);
+			path = SariSarap;
+			sourceTree = "<group>";
+		};
+		A318BD872EDA04CE0092A041 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A318BD882EDA04CE0092A041 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A318BD8F2EDA054E0092A041 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A318BD992EDA073F0092A041 /* FoodItem.swift */,
+				A318BD9B2EDA075C0092A041 /* CartManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A318BD942EDA066E0092A041 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A318BD9D2EDA07A40092A041 /* HomeView.swift */,
+				A318BD9F2EDA07D20092A041 /* FoodCardView.swift */,
+				A318BDA12EDA07FD0092A041 /* MenuView.swift */,
+				A318BDA32EDA08730092A041 /* FoodDetailView.swift */,
+				A318BDA52EDA08BA0092A041 /* CartView.swift */,
+				A318BDD32EDAB9880092A041 /* SettingsView.swift */,
+				A318BDD72EDAC63A0092A041 /* ReceiptView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A318BDD02EDA63F70092A041 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A318BDA72EDA10EE0092A041 /* Theme.swift */,
+				A318BDD12EDA64B70092A041 /* ThemeManager.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A318BD7D2EDA04CC0092A041 /* SariSarap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A318BD8C2EDA04CE0092A041 /* Build configuration list for PBXNativeTarget "SariSarap" */;
+			buildPhases = (
+				A318BD7A2EDA04CC0092A041 /* Sources */,
+				A318BD7B2EDA04CC0092A041 /* Frameworks */,
+				A318BD7C2EDA04CC0092A041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SariSarap;
+			productName = SariSarap;
+			productReference = A318BD7E2EDA04CC0092A041 /* SariSarap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A318BD762EDA04CC0092A041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A318BD7D2EDA04CC0092A041 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A318BD792EDA04CC0092A041 /* Build configuration list for PBXProject "SariSarap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A318BD752EDA04CC0092A041;
+			productRefGroup = A318BD7F2EDA04CC0092A041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A318BD7D2EDA04CC0092A041 /* SariSarap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A318BD7C2EDA04CC0092A041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A318BDCA2EDA38CC0092A041 /* LaunchScreen.storyboard in Resources */,
+				A318BD892EDA04CE0092A041 /* Preview Assets.xcassets in Resources */,
+				A318BD862EDA04CE0092A041 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A318BD7A2EDA04CC0092A041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A318BDA62EDA08BA0092A041 /* CartView.swift in Sources */,
+				A318BDA22EDA07FD0092A041 /* MenuView.swift in Sources */,
+				A318BD842EDA04CC0092A041 /* ContentView.swift in Sources */,
+				A318BD9C2EDA075C0092A041 /* CartManager.swift in Sources */,
+				A318BDA02EDA07D20092A041 /* FoodCardView.swift in Sources */,
+				A318BD9A2EDA073F0092A041 /* FoodItem.swift in Sources */,
+				A318BDA42EDA08730092A041 /* FoodDetailView.swift in Sources */,
+				A318BDCF2EDA55D60092A041 /* SplashView.swift in Sources */,
+				A318BDA82EDA10EE0092A041 /* Theme.swift in Sources */,
+				A318BD9E2EDA07A40092A041 /* HomeView.swift in Sources */,
+				A318BD822EDA04CC0092A041 /* SariSarapApp.swift in Sources */,
+				A318BDD82EDAC63A0092A041 /* ReceiptView.swift in Sources */,
+				A318BDD22EDA64B70092A041 /* ThemeManager.swift in Sources */,
+				A318BDD42EDAB9890092A041 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A318BD8A2EDA04CE0092A041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A318BD8B2EDA04CE0092A041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A318BD8D2EDA04CE0092A041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SariSarap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SariSarap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.group5.SariSarap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A318BD8E2EDA04CE0092A041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SariSarap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SariSarap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.group5.SariSarap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A318BD792EDA04CC0092A041 /* Build configuration list for PBXProject "SariSarap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A318BD8A2EDA04CE0092A041 /* Debug */,
+				A318BD8B2EDA04CE0092A041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A318BD8C2EDA04CE0092A041 /* Build configuration list for PBXNativeTarget "SariSarap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A318BD8D2EDA04CE0092A041 /* Debug */,
+				A318BD8E2EDA04CE0092A041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A318BD762EDA04CC0092A041 /* Project object */;
+}
